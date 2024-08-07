@@ -1,6 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:shake/shake.dart';
 import 'package:shake_count_app/red_box.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -15,7 +16,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  RxInt _counter = RxInt(0);
 
   @override
   void initState() {

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 import 'my_home_page.dart';
